@@ -10,6 +10,16 @@
         window.location='index.php';
     }
 </script>
+<style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            width: 50%;
+            border: 1px solid;
+        }
+    </style>
 </head>
 <body>
 <?php
