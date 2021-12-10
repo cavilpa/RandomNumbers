@@ -23,13 +23,12 @@
 </head>
 <body>
 <?php
+    require_once './dado.php';
     
     $min = $_POST['min'];
     $max = $_POST['max'];
-
-    require_once './dado.php';
     
-
+    
     $dado1 = new dado();
 
     $dado1->setMinNumDado($min);
