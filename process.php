@@ -23,7 +23,6 @@
 </head>
 <body>
 <?php
-    include_once 'dado.php';
     
     $min = $_POST['min'];
     $max = $_POST['max'];
